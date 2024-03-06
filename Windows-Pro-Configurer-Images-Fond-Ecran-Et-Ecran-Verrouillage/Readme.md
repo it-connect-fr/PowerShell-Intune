@@ -4,4 +4,6 @@ Ce script à ajouter dans Intune permet de définir une image de fond d'écran e
 
 # Ressources
 
-- Lien vers l'article (article pas encore ligne): [IT-Connect](https://www.it-connect.fr/)
+- Lien vers l'article : [IT-Connect - Intune - Exécuter un script PowerShell](https://www.it-connect.fr/intune-comment-executer-un-script-powershell-windows/)
+
+- Lien vers la vidéo :  [IT-Connect - Intune - Vidéo sur YouTube](https://www.youtube.com/watch?v=2_0Nntw8U84)
