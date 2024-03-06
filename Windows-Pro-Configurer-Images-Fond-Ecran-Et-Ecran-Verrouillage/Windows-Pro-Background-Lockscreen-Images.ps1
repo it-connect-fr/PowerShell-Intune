@@ -1,5 +1,29 @@
 <#
-    .SYNOPSIS Definir une image de fond d'ecran et d'ecran de verrouillage via les cles de Registre Windows
+.SYNOPSIS
+        Définir une image de fond d'écran et une image d'écran de verrouillage via les clés de Registre Windows
+
+.DESCRIPTION
+        Sur Windows 10 Pro et Windows 11 Pro, il n'est pas possible de configurer une image de fond d'écran et/ou de verrouillage avec les paramètres natifs Intune.
+        La solution de contournement consiste à utiliser des valeurs dans le Registre Windows, comme par GPO Active Directory.
+        Les images sont téléchargées en local sur la machine dans "C:\Windows\Web\Wallpaper\"
+        Indiquez les URL vers vos images en modifiant ces deux variables : $DesktopImageURL et $LockscreenImageURL.
+
+.PARAMETER
+.EXAMPLE  
+.INPUTS
+.OUTPUTS
+	
+.NOTES
+	NAME:	Windows-Pro-Background-Lockscreen-Images.ps1
+	AUTHOR:	Florian Burnel
+	EMAIL:	florian.burnel@it-connect.fr
+	WWW:	www.it-connect.fr
+
+	VERSION HISTORY:
+
+	1.0 	2024.03.06
+		    Initial Version
+
 #>
 # Fond ecran - URL en ligne et en local
 $DesktopImageURL = "https://itconnectintunedemo.blob.core.windows.net/images/IT-Connect_Wallpaper_052020-V2.png"
